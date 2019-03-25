@@ -1,0 +1,45 @@
+{
+  "name": "@bootvue/core",
+  "version": "0.0.1",
+  "description": "bootstrap components based on vue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wxs77577/bootvue.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "bootstrap",
+    "bootstrap-vue"
+  ],
+  "author": "Johnny <wu-xuesong@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wxs77577/bootvue/issues"
+  },
+  "homepage": "https://github.com/wxs77577/bootvue#readme",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name VBootstrap src/components/index.js",
+    "build:demo": "vue-cli-service build --dest demo",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.123",
+    "lodash-es": "^4.17.11",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "axios": "^0.18.0",
+    "babel-eslint": "^10.0.1",
+    "bootstrap": "^4.3.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "lerna": "^3.13.1",
+    "vue-template-compiler": "^2.5.21"
+  }
+}

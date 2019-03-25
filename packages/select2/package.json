@@ -1,0 +1,7 @@
+{
+  "name": "@bootvue/select2",
+  "main": "index.js",
+  "dependencies": {
+    "vue-select": "^2.6.3"
+  }
+}
